@@ -4,7 +4,9 @@ worked example from the book : https://learning.oreilly.com/library/view/speed-u
 
 install with 
 
-```pip install git+https://github.com/julzhk/myfibonacci@master```
+```
+pip install git+https://github.com/julzhk/myfibonacci@master
+```
 
 
 usage: 
@@ -19,4 +21,11 @@ print( calculate_numbers([1, 2, 3, 4, 5, 6, 7]))
 
 # [1, 1, 2, 3, 5, 8, 13]
 
+```
+
+from command line:
+    
+    ```bash
+fib-number --number 11
+# 89
 ```

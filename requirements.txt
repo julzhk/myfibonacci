@@ -1,0 +1,5 @@
+iniconfig==2.0.0
+markdown-it-py==3.0.0
+mdurl==0.1.2
+myfibonacci_py@git+https://github.com/julzhk/myfibonacci@master
+pytest==8.3.4
