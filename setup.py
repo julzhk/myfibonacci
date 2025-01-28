@@ -1,12 +1,13 @@
 from setuptools import find_packages, setup
+with open("readme.md", "r") as fh:
+    long_description = fh.read()
 setup(
     name="myfibonacci_py",
     version="0.0.1",
     author="julz",
     author_email="axial.nitro0w@icloud.com",
     description="Calculates a Fibonacci number",
-    long_description="A basic library that \
-      calculates Fibonacci numbers",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/julzhk/myfibonacci",
     install_requires=[],
